@@ -6,3 +6,8 @@ canvas.visualizer {
 .clip video{
     width: 50%;
 }
+
+
+.clip {
+    margin-bottom: 25px;
+}

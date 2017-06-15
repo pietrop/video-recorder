@@ -179,7 +179,8 @@ if (navigator.getUserMedia) {
       var a = document.createElement("a");
       // document.body.appendChild(a);
       a.href = audioURL;
-      a.innerText = "Download";
+      //download
+      a.innerText = "Save";
       a.classList.add('btn');
       a.download = clipName;
       // a.onclick = .download
@@ -285,7 +286,11 @@ function visualize(stream) {
 </body>
 
 <script>
+
     // You can also require other files to run in this process
-    require('./renderer.js')
-    </script>
-    </html>
+if(isElectron()){
+      require('./renderer.js')
+}
+
+</script>
+</html>
