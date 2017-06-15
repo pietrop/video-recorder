@@ -2,7 +2,7 @@
 
 _Currently work in progress_
 
-An electron app to test out video and audio recording capabilities. 
+An (electron) app to test out video and audio recording capabilities. 
 
 Eg if you want to record an audio or video file, get an audio or video preview usin the system's input (webcam and mic). And then save/export the file when done.
 
@@ -43,6 +43,7 @@ npm start
 - [x] Ad video preview
 - [ ] do option for audio or video, eg check box. 
 - [ ] refactor `onSuccess` fuction into smaller helper functions. 
+- [ ] try with external webcam 
 
 
 <!-- ref -->
