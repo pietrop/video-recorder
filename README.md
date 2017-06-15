@@ -8,6 +8,8 @@ Eg if you want to record an audio or video file, get an audio or video preview u
 
 The app is designed in such way that it should also work in the browser. eg github pages, to promote code portability. 
 
+## Demo 
+
 However it seems like you can't test it in github pages because ` getUserMedia() no longer works on insecure origins`.
 
 it would work if you try with `https` tho. eg at [https://pietropassarelli.com/video-recorder/](https://pietropassarelli.com/video-recorder/). Or jus try it locally.
@@ -26,7 +28,7 @@ Some of the most relevant resources consulted to put this together. Altho is mos
 - [Electrong DesktopCapturer](https://github.com/electron/electron/blob/master/docs/api/desktop-capturer.md) _altho not used_
 - ["How to use the camera with Electron Framework (create a snapshot) and save the image on the system"](http://ourcodeworld.com/articles/read/134/how-to-use-the-camera-with-electron-framework-create-a-snapshot-and-save-the-image-on-the-system)
 
-## Try it out
+## Try it out in Electron
 
 ``` 
 npm install
@@ -37,6 +39,9 @@ npm install
 npm start
 ```
 
+## Try it out in the browser
+
+Clone the repo locally and open the `index.html` file in chrome. 
 
 ## TODO
 
