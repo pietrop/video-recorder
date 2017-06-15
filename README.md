@@ -15,7 +15,7 @@ However it seems like you can't test it in github pages because ` getUserMedia()
 it would work if you try with `https` tho. eg at [https://pietropassarelli.com/video-recorder/](https://pietropassarelli.com/video-recorder/). Or jus try it locally.
 
 
-## Resouses used
+## Resources used
 
 Some of the most relevant resources consulted to put this together. Altho is mostly came down to get an understanding of `getUserMedia()` and `MediaRecorder()` and combine  [Treehouse project][Treehouse_getUserMedia] with [MDN web dictaphone project][Web_Dictaphone].
 
@@ -29,6 +29,14 @@ Some of the most relevant resources consulted to put this together. Altho is mos
 - ["How to use the camera with Electron Framework (create a snapshot) and save the image on the system"](http://ourcodeworld.com/articles/read/134/how-to-use-the-camera-with-electron-framework-create-a-snapshot-and-save-the-image-on-the-system)
 
 ## Try it out in Electron
+
+```
+git clone git@github.com:pietrop/video-recorder.git
+```
+
+```
+cd video-recorder
+```
 
 ``` 
 npm install
