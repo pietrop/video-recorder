@@ -8,6 +8,10 @@ Eg if you want to record an audio or video file, get an audio or video preview u
 
 The app is designed in such way that it should also work in the browser. eg github pages, to promote code portability. 
 
+However it seems like you can't test it in github pages because ` getUserMedia() no longer works on insecure origins`.
+
+it would work if you try with `https` tho. eg at [https://pietropassarelli.com/video-recorder/](https://pietropassarelli.com/video-recorder/). Or jus try it locally.
+
 
 ## Resouses used
 
