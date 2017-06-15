@@ -80,11 +80,13 @@ function errorCallback(e) {
   console.log('Error', e)
 }
 
+ navigator.getUserMedia = (navigator.getUserMedia ||
+                            navigator.webkitGetUserMedia ||
+                            navigator.mozGetUserMedia || 
+                            navigator.msGetUserMedia);
+
 if (navigator.getUserMedia) {
-  // navigator.getUserMedia = (navigator.getUserMedia ||
-  //                           navigator.webkitGetUserMedia ||
-  //                           navigator.mozGetUserMedia || 
-  //                           navigator.msGetUserMedia);
+ 
 
   var constraints = { audio: true,video: true };
   var chunks = [];
