@@ -47,6 +47,6 @@ npm start
 
 
 <!-- ref -->
-
-[Web_Dictaphone]: https://github.com/mdn/web-dictaphone)
+      
+[Web_Dictaphone]: https://github.com/mdn/web-dictaphone     
 [Treehouse_getUserMedia]: http://blog.teamtreehouse.com/accessing-the-device-camera-with-getusermedia
